@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./exam.css" />
+  </head>
+  <body>
+    <form class="container">
+      <h3 class="title">Danh sách các công việc</h3>
+      <div class="input">
+        <input type="search" id="button search" />
+        <button type="submit" class="button button-check">Thêm</button>
+      </div>
+      <div class="error">Dữ liệu đầu vào không được để trống</div>
+      <div class="job-list">
+        <div class="job">
+            <input type="checkbox" id="job1">
+            <label for="job1">Quét nhà</label>
+        </div>
+        <div class="job">
+            <input type="checkbox" id="job2">
+            <label for="job2">Giặt quần áo</label>
+        </div>
+        <div class="job">
+            <input type="checkbox" id="job3">
+            <label for="job3">Học lập trình</label>
+        </div>    
+        <div class="job">
+            <input type="checkbox" id="job4">
+            <label for="job4">Nấu ăn</label>
+        </div>
+    </div>
+    <div class="process">
+        <h3>Tiến độ hoàn thành <span>50%</span></h3>
+    </div>
+    </form>
+    <script src="./exam.js"></script>
+  </body>
+</html>

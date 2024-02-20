@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+.button {
+    height: 36px;
+    min-width: 80px;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-check {
+    background-color: #007aff;
+}
+
+.button-search:focus {
+    background-color: #0062cc;
+}
+
+.job-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.job {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.job input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.job label {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 40px;
+}

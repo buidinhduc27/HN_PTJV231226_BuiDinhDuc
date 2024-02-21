@@ -7,19 +7,18 @@
     <link rel="stylesheet" href="./exam.css" />
   </head>
   <body>
-    <form class="container">
-      <h3 class="title">Danh sách các công việc</h3>
-      <div class="input">
-        <input type="search" id="button search" />
-        <button type="submit" class="button button-check">Thêm</button>
-      </div>
-      <div class="error">Dữ liệu đầu vào không được để trống</div>
-      <div class="job-list">
-        <div class="job"></div>
-    <div class="process">
-        <h3>Tiến độ hoàn thành <span>50%</span></h3>
+    <div class="container">
+      <h2 class="title">Danh sách các công việc</h2>
+        <div class="input">
+          <div class="add-button">
+            <input type="text" class="add-job" />
+            <button type="submit" class="button">Thêm</button>
+          </div>
+          <div class="error">Dữ liệu đầu vào không được để trống</div>
+        </div>
+        <div class="job-list"></div>
+        <h3 class="process">Tiến độ hoàn thành </h3>
     </div>
-    </form>
     <script src="./exam.js"></script>
   </body>
 </html>
